@@ -1,4 +1,3 @@
-let rects = []
 function setup() {
   createCanvas(600, 600);
   background(220);
@@ -11,14 +10,6 @@ function draw() {
   
 }
 
-
-/*
-function randomRectangles() {
-  if(mouseIsPressed()) {
-    rect(mouseX, mouseY, random(50), random(50));
-  }
-}
-*/
 
 function mousePressed() {
   fill(random(255), random(255), random(255));
